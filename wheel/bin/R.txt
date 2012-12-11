@@ -1,2 +1,0 @@
-int drawable wheel_bg 0x7f020000
-int drawable wheel_val 0x7f020001
