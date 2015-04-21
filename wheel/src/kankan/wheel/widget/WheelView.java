@@ -868,8 +868,8 @@ public class WheelView extends View {
 		}
 
 		// add views
-		int addItems = visibleItems / 2;
-		for (int i = currentItem + addItems; i >= currentItem - addItems; i--) {
+		// all items must be included to measure width correctly
+		for (int i = viewAdapter.getItemsCount()-1; i >= 0; i--){
 			if (addViewItem(i, true)) {
 				firstItem = i;
 			}
