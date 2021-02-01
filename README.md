@@ -1,3 +1,9 @@
+* Archived
+
+I have archived this project as I am not in any position to maintain it and haven't in years. I encourage those who still use it to create a stable fork for the project going forward.
+
+---
+
 Android-Wheel
 
 This project initially was a mirror from this repository :
